@@ -29,3 +29,6 @@ Makefile.in
 /src/vcc_if.h
 /src/*.rst
 /m4
+
+/debian/files
+/debian/tmp

@@ -1,0 +1,11 @@
+Source: libvmod-geoip
+Section: unknown
+Priority: extra
+Maintainer: Emil Renner Berthing <esmil@kogama.com>
+Build-Depends: automake, pkg-config, libtool, python-docutils, libvarnishapi-dev, libgeoip-dev
+Standards-Version: 3.7.2
+
+Package: varnish-geoip
+Architecture: amd64
+Depends: ${dist:depends}
+Description: Varnish GeoIP Lookup Module
